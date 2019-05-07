@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+/gradle
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/gradlew
+/gradlew.bat
+/app/build
+/app/src/main/res/values/private.xml
+/app/google-services.json
