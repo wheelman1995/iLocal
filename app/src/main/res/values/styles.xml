@@ -6,19 +6,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.SignUp">
-        <item name="colorAccent">@color/colorSignUpBlue</item>
-        <!--<item name="android:colorControlNormal">@color/colorSignUpBlue</item>-->
-        <!--<item name="android:colorControlActivated">@color/colorSignUpBlue</item>-->
-        <!--<item name="android:colorControlHighlight">@color/colorSignUpBlue</item>-->
-    </style>
-
-    <style name="AppTheme.SignUp.SignUpTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="boxStrokeColor">@color/colorSignUpBlue</item>
-        <item name="boxStrokeWidth">@dimen/sign_up_rectangle_stroke_width</item>
-        <item name="android:layout_marginEnd">@dimen/xl_margin</item>
-        <item name="android:layout_marginStart">@dimen/xl_margin</item>
-        <item name="android:layout_height">@dimen/sign_up_input_forms_height</item>
-    </style>
-
 </resources>
