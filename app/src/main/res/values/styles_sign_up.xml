@@ -5,7 +5,7 @@
         <item name="colorAccent">@color/colorSignUpBlue</item>
     </style>
 
-    <style name="AppTheme.SignUp.SignUpTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <style name="AppTheme.SignUp.SignUpTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
         <item name="boxStrokeColor">@color/colorSignUpBlue</item>
         <item name="boxStrokeWidth">@dimen/sign_up_rectangle_stroke_width</item>
         <item name="android:layout_marginEnd">@dimen/xl_margin</item>

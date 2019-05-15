@@ -7,4 +7,5 @@
     <color name="colorSignUpBlue">#0C3E68</color>
     <color name="colorSignUpLightCoral">#F08080</color>
     <color name="colorTransparent">#00000000</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#0C3E68</color>
 </resources>
