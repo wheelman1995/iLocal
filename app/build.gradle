@@ -59,6 +59,9 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.0.2'
     implementation 'androidx.collection:collection-ktx:1.0.0'
 
+    //vk auth
+    implementation 'com.vk:androidsdk:2.1.0'
+
     //di
     implementation "org.kodein.di:kodein-di-generic-jvm:$kodein_version"
     implementation "org.kodein.di:kodein-di-framework-android-x:$kodein_version"

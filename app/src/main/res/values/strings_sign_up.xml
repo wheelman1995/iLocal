@@ -1,11 +1,4 @@
 <resources>
-    <string name="create_account">Создать аккаунт</string>
-    <string name="sign_up_hint_name">Имя</string>
+    <string name="sign_in_using_social_networks">Войти с помощью\nсоциальных сетей</string>
     <string name="skip_sign_up">Зарегистрироваться позже</string>
-    <string name="sign_up_hint_email">Email</string>
-    <string name="sign_up_hint_password">Пароль</string>
-    <string name="agreement_checkbox_text"><u>С политикой конфиденциальности и пользовательским соглашением ознакомлен</u></string>
-    <string name="continue_with_facebook">Продолжить с помощью Facebook</string>
-    <string name="already_registered_question">У Вас уже есть аккаунт на Locals?</string>
-    <string name="sign_in">Войти</string>
 </resources>
