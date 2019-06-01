@@ -18,6 +18,22 @@ class SignUpFragmentPresenter(private val kodein: Kodein) : MvpPresenter<SignUpF
 
     fun onClickGoogleAuthButton(){
         Log.i(TAG, "onClickGoogleAuthButton()")
+        viewState.googlelogin()
+    }
+
+    fun onConnectionSuspended(){
+        Log.i(TAG, "onConnectionSuspended()")
+        viewState.connectGoogleApiClient()
+    }
+
+    fun onStartFragment(){
+        Log.i(TAG, "onStartFragment()")
+        viewState.connectGoogleApiClient()
+    }
+
+    fun onStopFragment(){
+        Log.i(TAG, "onStopFragment()")
+        viewState.disconnectGoogleApiClient()
     }
 
 }
