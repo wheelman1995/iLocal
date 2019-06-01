@@ -12,4 +12,8 @@
         <item name="android:layout_marginStart">@dimen/xl_margin</item>
         <item name="android:layout_height">@dimen/sign_up_input_forms_height</item>
     </style>
+
+    <style name="ImageButtonBackground">
+        <item name="android:background">#0000</item>
+    </style>
 </resources>
